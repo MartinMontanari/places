@@ -1,0 +1,32 @@
+{
+  "name": "places-app",
+  "version": "1.0.0",
+  "description": "Api rest with node JS to placesapp microservice",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinMontanari/places.git"
+  },
+  "keywords": [
+    "places",
+    "api",
+    "node",
+    "app",
+    "express",
+    "microservice",
+    "nodejs"
+  ],
+  "author": "Martin Montanari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MartinMontanari/places/issues"
+  },
+  "homepage": "https://github.com/MartinMontanari/places#readme"
+}
