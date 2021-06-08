@@ -3,6 +3,9 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 
+const db = require('./config/database');
+db.connect ();
+
 const users = require('./routes/users');
 const index = require('./routes/index');
 

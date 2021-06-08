@@ -1,6 +1,19 @@
 version: "3.7"
 
 services:
+  api:
+    container_name: api
+    build: ../
+    hostname: api
+    depends_on:
+      - mongo
+    ports:
+      - '3000:3000'
+    volumes:
+      - ../server:/usr/src/service/server
+    working_dir: /usr/src/service/server
+    command: 'npm start'
+
   mongo:
     image: mongo
     hostname: mongo
